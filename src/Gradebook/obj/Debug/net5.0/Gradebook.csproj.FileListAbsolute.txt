@@ -1,0 +1,16 @@
+D:\src\Personal\gradebook\src\Gradebook\bin\Debug\net5.0\Gradebook.exe
+D:\src\Personal\gradebook\src\Gradebook\bin\Debug\net5.0\Gradebook.deps.json
+D:\src\Personal\gradebook\src\Gradebook\bin\Debug\net5.0\Gradebook.runtimeconfig.json
+D:\src\Personal\gradebook\src\Gradebook\bin\Debug\net5.0\Gradebook.runtimeconfig.dev.json
+D:\src\Personal\gradebook\src\Gradebook\bin\Debug\net5.0\Gradebook.dll
+D:\src\Personal\gradebook\src\Gradebook\bin\Debug\net5.0\ref\Gradebook.dll
+D:\src\Personal\gradebook\src\Gradebook\bin\Debug\net5.0\Gradebook.pdb
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.csproj.AssemblyReference.cache
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.AssemblyInfoInputs.cache
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.AssemblyInfo.cs
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.csproj.CoreCompileInputs.cache
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.dll
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\ref\Gradebook.dll
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.pdb
+D:\src\Personal\gradebook\src\Gradebook\obj\Debug\net5.0\Gradebook.genruntimeconfig.cache
