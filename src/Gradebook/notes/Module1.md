@@ -1,10 +1,10 @@
-# C# Fundamentals
+# Module 1: Introducing C# and .NET
 
-## Module 1 & 2
+## Introduction
 Intro and downloading .NET for Windows
 ___
 
-## Module 2 – Understanding .NET and .NET Core
+## Understanding .NET and .NET Core
 
 .NET - Framework that takes C# code and tells the computer what to do 
 
@@ -15,7 +15,7 @@ ___
 .NET Framework & .NET Core both support the C# language. Use .NET Core in any new projects.
 ___
  
-## Module 3 – Understanding the .NET Runtime
+## Understanding the .NET Runtime
 What's in .NET?  that executes
 .NET is a software that execute the instructions that you're writing in C#
 
@@ -27,13 +27,13 @@ Framework Class Library (FCL) or Base Class Library – A library. Code already 
 SDK – software development kit - .NET Core.
 ___
 
-## Module 4 – Using the .NET Command Line
+## Using the .NET Command Line Interface
 CLI- Command Line Interface. Interacting with .NET via the command prompt.
 
 In the command prompt, type `dotnet` to open options.
 ___
 
-## Module 5 – Creating the First C# Project
+## Creating the First C# Project
 Console application - is an application that can run in the command prompt.
 
 *command prompt is called the terminal or shell in other systems
@@ -48,7 +48,7 @@ ASP.NET Core – web programming framework built on top of .NET Core for web app
 
 `dotnet new console` – creates a new .NET project
 ___
-## Module 7 - Running and Building You Project
+## Running and Building Your Project
 *What really happens when you execute dotnet run?* 
 
 1. Implicitly, you run dotnet restore. So in .NET there is a package system, called NuGet. A package system allows my application to take advantage of features and functionality that are in other bits of code that other developers have written, and these bits of code live inside of files known as NuGet packages. So the library that .NET Core provides has a lot of features, features that allow me to open files, do cryptography and talk over the network, but it doesn't cover everything that I could possibly want inside of .NET application. So other developers will place code inside of NuGet packages and make these packages available from what is known as a package feed somewhere on the internet. You can always let .NET know if you want more NuGet packages, that fact will always be recorded in the .csproj file
@@ -86,10 +86,3 @@ Exceptions either:
 In the project, you'll see another folder called .vscode. In it are two JSON files, and these JSON files control what VSCode will do when I wanna so something like debug or build project
 
 **Launch.json** - shows the arguments that the debugger will pass to my application when it launches it under the debugger or even when we launch the program without the debugger. 
-
-
-____
-
-
-
-
