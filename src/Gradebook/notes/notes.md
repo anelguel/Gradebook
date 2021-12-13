@@ -76,7 +76,7 @@ Summary:
  * `obj`: holds temp files that are put together in restore and build process. You can safetly delete this and the `bin` folder. When you `dotnet build` it will recreate these files. All you need to keep around is the source code (`.cs`) and .`csproj`.
 
  ____
- ## Saying Hello with C#
+ ## Debugging a C# Application
  An exception represents an error condition. 
 
 Exceptions either:
@@ -85,7 +85,11 @@ Exceptions either:
 
 In the project, you'll see another folder called .vscode. In it are two JSON files, and these JSON files control what VSCode will do when I wanna so something like debug or build project
 
-Launch.json - shows the arguments that the debugger will pass to my application when it launches it under the debugger or even when we launch the program without the debugger. 
+**Launch.json** - shows the arguments that the debugger will pass to my application when it launches it under the debugger or even when we launch the program without the debugger. 
+
+
+____
+
 
 
 
