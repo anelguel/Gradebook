@@ -15,8 +15,8 @@ namespace Gradebook
             {
                 result += number;
             }
-
-            System.Console.WriteLine(result / grades.Count);
+            result /= grades.Count;
+            System.Console.WriteLine($"The average grade is + {result:N1}");
 
             if (args.Length > 0)
             {
