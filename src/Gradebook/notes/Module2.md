@@ -10,3 +10,6 @@ When debugging, skip problems in `.csproj` and instead see errors in `.cs` files
 
 ## Adding numbers and Creating Arrays
 `var`: implicit typing
+
+## Looping through Arrays
+`+=`: Add AND assignment operator. It adds the right operand to the left operand and assign the result to the left operand.	C += A is equivalent to C = C + A
