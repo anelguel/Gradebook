@@ -7,3 +7,6 @@ The grades are entered as floating point numbers from 0 to 100, and the statisti
 ## Working with Code Blocks and Statements
 `;` - tells the compiler where one statement starts and another ends
 When debugging, skip problems in `.csproj` and instead see errors in `.cs` files. Start with first/earliest errors and work down, as some errors are caused by previous errors. You can see what lines the errors occured in the debug console.
+
+## Adding numbers and Creating Arrays
+`var`: implicit typing
