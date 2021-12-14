@@ -14,4 +14,11 @@ When debugging, skip problems in `.csproj` and instead see errors in `.cs` files
 ## Looping through Arrays
 `+=`: Add AND assignment operator. It adds the right operand to the left operand and assign the result to the left operand.	C += A is equivalent to C = C + A
 
+REMEMBER: it is `+=` NOT `=+`
+
 ## Using a List
+There is a namespace called System.Collections.Generic. That namespace has classes we can use that are data structures, data structures like a stack and a queue or a LIST!
+
+Shortcut: `CTRL + .` to bring up Intellisense error suggestions in Visual Studio Code.
+
+Arrays and Lists are pretty much the same thing, except a List is dynamic, I can add new values to it.
