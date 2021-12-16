@@ -1,0 +1,7 @@
+## Module 4: Working with Classes and Objects
+### Creating a Class
+Talked about namespace, and mentioned that a class is a type
+
+## Adding State and Behavior
+You can have as many classes as you want in a namespace, but the convention is to add one class per file (in this case, Program.cs or namespace)
+A class consists two things: the state or data it holds, and then there is the behavior which acts on that state
