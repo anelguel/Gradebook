@@ -8,3 +8,10 @@ A class consists two things: the state or data it holds (property), and then the
 
 ## Defining a Method
 *void*: Method is not going to return a value
+
+## Defining a Field
+* Field definition - Adding state to a class definition
+* Looks like a variable declaration in a class (like `<data_type> <variable_name>`)
+* In a field, you cannot use implicit typing (like var), instead you need to be explicit, like List<double>
+* Should be inside of class, but outside of any methods so that it's public
+* When you add a field, it means that every method in that class will have access and can interact with that field.
