@@ -15,3 +15,14 @@ A class consists two things: the state or data it holds (property), and then the
 * In a field, you cannot use implicit typing (like var), instead you need to be explicit, like List<double>
 * Should be inside of class, but outside of any methods so that it's public
 * When you add a field, it means that every method in that class will have access and can interact with that field.
+
+## Adding a Constructor
+* Null Reference Exception = you're using a field or variable that has not been properly initialized
+* Think of a class like a blueprint, it's going to describe how I'm going to build objects. Every class is like a cookie cutter. Every cookie I stamp out is an object. 
+* Instantiate a class = creating an object
+
+* A Constructor is just another method in your class, but it has some special conventions:
+    * It has to have the same name as your class. 
+    * It cannot have a return type.
+    * And any code that I write is guaranteed to execute when I use the `new` keyword against this class. It will execute before invoking any methods in the class.
+
