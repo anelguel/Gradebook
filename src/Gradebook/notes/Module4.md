@@ -40,3 +40,11 @@ A class consists two things: the state or data it holds (property), and then the
 * The only way to reach (for example, in the default case, Main) is to use the class name/type where Main is defined (Program.Main(args)).
 
 
+-instance member – when using public and private access modifiers, it means that those methods/fields, will be available when creating an object of a class. They are called instance members (instance methods, and instance fields)
+-static members – not associated with an object instance. They are associated with the TYPE that they are defined inside of.
+	-you cannot reach static through an object reference, instead it is associated with the class (type). The only way to reach it, is to use the class name where it is defined (the class name or type name).
+	-for example, when you use Console.WriteLine(); you can express it just like that. That's because Console.WriteLine() is static. If it weren't you'd have to create a new instance of CW, and then invoke whatever method you want from it.
+	-when you use static, even if you keep creating objects – there will only be one  static method, field, etc. of type class. 
+	
+
+
