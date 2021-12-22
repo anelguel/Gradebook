@@ -26,3 +26,11 @@ A class consists two things: the state or data it holds (property), and then the
     * It cannot have a return type.
     * And any code that I write is guaranteed to execute when I use the `new` keyword against this class. It will execute before invoking any methods in the class.
 
+## Requiring Constructor Parameters
+* Encapsulation – is hiding complexities and details that are unimportant at a certain level
+* Access modifies (public, private, etc.)
+* Public – code outside of this class can have access to this particular method/member. This can be added to methods, fields.
+* Private – I only want this method/field to be available to code inside of this class 
+* The `this.` keyword: This is an implicit variable that is always available inside of *methods* and inside of  *constuctors*. You use it when you want to refer to the object that is currently being operated on. *On THIS object*.
+
+
