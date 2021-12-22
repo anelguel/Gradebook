@@ -33,4 +33,10 @@ A class consists two things: the state or data it holds (property), and then the
 * Private – I only want this method/field to be available to code inside of this class 
 * The `this.` keyword: This is an implicit variable that is always available inside of *methods* and inside of  *constuctors*. You use it when you want to refer to the object that is currently being operated on. *On THIS object*.
 
+## Working with Static Members
+* The opposite of static is to have a method that does not use the static keyword, and this is what we call an instance member of a class. And that means that whenever I have an object of type book, the public method will be available.
+* Statics are not associated with an object instance. Statics are associated with the TYPE they are defined inside of.
+    * You cannot reach it (a static method) through an object. It is not associated with a specific object, instead, it is associated with a class (in the default case, named Program). 
+* The only way to reach (for example, in the default case, Main) is to use the class name/type where Main is defined (Program.Main(args)).
+
 
