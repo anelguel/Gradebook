@@ -13,3 +13,6 @@
 * `dotnet build` looks for a `.sln` file in current directory. If there is no `.sln` file it will build `.csproj` files. When you add a `.sln` file it will restore and build BOTH `.csproj` files in the folder?
 
 > Basically we created a `.sln` file in the folder so that we can build both Gradebook and Gradebook.Tests at the same time. This makes things easier and faster.
+
+### Testing Object References
+* No access modifier on members means that they are private by default.
