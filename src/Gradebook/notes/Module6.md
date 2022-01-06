@@ -16,3 +16,7 @@
 
 ### Testing Object References
 * No access modifier on members means that they are private by default.
+
+### Referencing Different Objects
+* Two values can reference the same object. 
+![](D:\src\Personal\gradebook\src\Gradebook\notes\images\Module6ReferenceVsValueTypes.png)
