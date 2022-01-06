@@ -20,3 +20,7 @@
 ### Referencing Different Objects
 * Two values can reference the same object. 
 ![](D:\src\Personal\gradebook\src\Gradebook\notes\images\Module6ReferenceVsValueTypes.png)
+![](https://github.com/anelguel/Gradebook/blob/main/src/Gradebook/notes/images/Module6ReferencingDifferentObjects.png?raw=true)
+
+### Returning Object References
+***In C# when you pass a parameter to a method, you're always passing a parameter by value.***
