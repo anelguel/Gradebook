@@ -26,3 +26,8 @@
 ***In C# when you pass a parameter to a method, you're always passing a parameter by value.***
 
 ### Passing Parameters by Reference
+![](D:\src\Personal\gradebook\src\Gradebook\notes\images\Module6PassingParametersByReference.png)
+In C# when you pass a parameter to a method, you're always passing a parameter by value.
+
+![](D:\src\Personal\gradebook\src\Gradebook\notes\images\Module6PassingParametersByReference2.png)
+In day to day programming, you do not pass parameters by reference often, but it is possible by using the `ref` or `out` keyword. The difference is that with `out` you're forced to initialize the output parameter.
