@@ -8,6 +8,21 @@ public class TypeTests
 {
 
     [Fact]
+    public void StringsBehaveLikeValueTypes()
+    {
+        string name = "Anel";
+        var upper = MakeUppercase(name);
+        
+        Assert.Equal("Anel", name);
+        Assert.Equal("ANEL", upper);
+    }
+
+    private string MakeUppercase(string parameter)
+    {
+        return parameter.ToUpper();
+    }
+
+    [Fact]
     public void Test1()
     {
         var x = GetInt();

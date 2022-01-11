@@ -49,3 +49,8 @@ You can also change value types to be passed in by reference by using the `ref` 
     * Class = reference types
 
 * Strings are reference types! Strings often behave like a value type.
+
+### The Special Case of Strings in .NET
+* Value types are immutable
+* Strings are reference types but they behave like value types because they are immutable
+* Strings have a lot of method members (like `.ToUpper()`) however, this always returns a *copy* of the original string
