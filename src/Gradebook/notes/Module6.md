@@ -37,3 +37,15 @@ Value types: int, float, DateTime, bools. What you see is what you get! With val
 
 ### Value Type Parameters
 You can also change value types to be passed in by reference by using the `ref` keyword.
+
+### Looking for Reference Types and Value Types
+* When you work with something that has been defined by a class, you are working with a reference type.
+* A `struct` is another way to define a type. It is a special type, it needs to behave like a value type. It is small, like an int. They can be a lot more efficient than reference types. A struct is like writing a class, it has fields, methods. Structs are special value types.
+
+**How can you tell if you are working with a reference of value type?**
+1. Place you cursor on a type identifier (like `Book` or int or float)
+2. Press F12. This will take you to the metadata view.
+    * Struct = value types
+    * Class = reference types
+
+* Strings are reference types! Strings often behave like a value type.
