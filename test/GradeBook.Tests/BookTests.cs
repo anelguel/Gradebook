@@ -24,4 +24,18 @@ public class BookTests
         Assert.Equal(90.5, result.High, 1);
         Assert.Equal(77.3, result.Low, 1);
     }
+
+    [Fact]
+    public void BookReturnsInvalidValue()
+    {
+        //arrange
+        var book = new Book("");
+        
+        //act
+        book.AddGrade(105);
+
+        //assert
+
+
+    }
 }
