@@ -31,3 +31,6 @@ In C# when you pass a parameter to a method, you're always passing a parameter b
 
 ![](D:\src\Personal\gradebook\src\Gradebook\notes\images\Module6PassingParametersByReference2.png)
 In day to day programming, you do not pass parameters by reference often, but it is possible by using the `ref` or `out` keyword. The difference is that with `out` you're forced to initialize the output parameter.
+
+### Working with Value Types
+Value types: int, float, DateTime, bools. What you see is what you get! With value types, the value is what you get, unlike references where you get pointers or the address location, etc.
