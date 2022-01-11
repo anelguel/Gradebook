@@ -54,3 +54,6 @@ You can also change value types to be passed in by reference by using the `ref` 
 * Value types are immutable
 * Strings are reference types but they behave like value types because they are immutable
 * Strings have a lot of method members (like `.ToUpper()`) however, this always returns a *copy* of the original string
+
+### Taking Advantage of Garbage Collection
+A garbage collector can keep track of all of the objects that you have allocated and created, and it keeps track of all the fields and variables too. .NET knows when to clean memory. For example, by the end of some methods throughout our Gradebook project, the .NET runtime can detect when there's nothing referring to that object anymore. It can clean the object, to make more room for memory.
