@@ -34,3 +34,6 @@ In day to day programming, you do not pass parameters by reference often, but it
 
 ### Working with Value Types
 Value types: int, float, DateTime, bools. What you see is what you get! With value types, the value is what you get, unlike references where you get pointers or the address location, etc.
+
+### Value Type Parameters
+You can also change value types to be passed in by reference by using the `ref` keyword.
