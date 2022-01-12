@@ -21,3 +21,8 @@
 Jumping statements allow me to jump over code to reach some other line of code that's in a method. In general, be careful with them because it can be hard to follow the logic within a jumping statment.
 
 * `break`, `continue` are the main jumping statements. The last uncommon one is `goto` (rarely used)
+
+### Switching with the switch Statement
+* `char` type will take in a single character, it is a value type
+* `switch` statement have been around in C# since the very beginning. First use the keyword `switch` followed by the variable the switch statement is going to operate on. Next are the `case`s that express a character or *constant*; these are in single quotes as they are not strings. Include break statments after each case.
+    * If you want a case to execute when none of the others execute, then use `default`.
