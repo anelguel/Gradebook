@@ -26,3 +26,7 @@ Jumping statements allow me to jump over code to reach some other line of code t
 * `char` type will take in a single character, it is a value type
 * `switch` statement have been around in C# since the very beginning. First use the keyword `switch` followed by the variable the switch statement is going to operate on. Next are the `case`s that express a character or *constant*; these are in single quotes as they are not strings. Include break statments after each case.
     * If you want a case to execute when none of the others execute, then use `default`.
+
+### Pattern Matching with switch
+* In C# 7, `switch` statments were given the ability to do pattern matching. Pattern matching is used to match some variable against a certain type.
+* New `switch` features include being able to declare a variable in my case statement as well as using the `when` keyword. If `when` is true, then the code will execute that is associated with this case statement. 
