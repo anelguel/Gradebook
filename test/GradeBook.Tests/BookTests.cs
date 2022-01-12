@@ -33,9 +33,8 @@ public class BookTests
         
         //act
         book.AddGrade(105);
-
+        
         //assert
-
-
+        System.Diagnostics.Debug.WriteLine("invalid value");
     }
 }
