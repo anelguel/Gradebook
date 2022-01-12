@@ -16,3 +16,8 @@
     * The first part is the initialization expression. You can declare or initialize a variable, or declare AND initialize a variable that I'm going to be using throughout the rest of the loop.
     * The second part is the condition to check before the runtime enters the loop.
     * The third part is the operation I want to perform after each iteration of the loop.
+
+### Jumping with break and continue
+Jumping statements allow me to jump over code to reach some other line of code that's in a method. In general, be careful with them because it can be hard to follow the logic within a jumping statment.
+
+* `break`, `continue` are the main jumping statements. The last uncommon one is `goto` (rarely used)

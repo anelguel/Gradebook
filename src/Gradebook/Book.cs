@@ -32,6 +32,12 @@ namespace Gradebook
                
             for(var index = 0; index < grades.Count; index += 1)
             {
+                // //example of jumping statements:
+                // if(grades[index] == 42.1)
+                // {
+                //     break; //or continue;
+                // }
+
                 result.Low = Math.Min(grades[index], result.Low);
                 result.High = Math.Max(grades[index], result.High);
                 result.Average += grades[index];
