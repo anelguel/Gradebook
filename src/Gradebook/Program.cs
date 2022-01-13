@@ -12,16 +12,22 @@ namespace Gradebook
             // book.AddGrade(90.5);
             // book.AddGrade(77.5);
 
-            Console.WriteLine("Please enter a grade");
+            var done = false;
 
-            var input = Console.ReadLine();
-            var grade = double.Parse(input);
-
-            if (grade <= 0 || grade >= 100)
+            while (true)
             {
+                Console.WriteLine("Please enter a grade or 'q' to quit:");
+                var input = Console.ReadLine();
+
+                if (input == "q")
+                {
+                    break;
+                }
+
+                var grade = double.Parse(input);
                 book.AddGrade(grade);
             }
-            else if (grade == 'q')
+
             {
                 var stats = book.GetStatistics();
 
@@ -31,7 +37,7 @@ namespace Gradebook
                 System.Console.WriteLine($"The letter grade is {stats.Letter}");
             }
 
-            
+
 
         }
     }
