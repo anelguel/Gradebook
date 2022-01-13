@@ -35,3 +35,8 @@ Jumping statements allow me to jump over code to reach some other line of code t
 > var input = Console.ReadLine();
 
 > var grade = double.Parse(input);
+
+### Throwing Exceptions
+In larger systems, you build your own exceptions, but there are some that are built in such as:
+
+`throw new ArgumentException()`
