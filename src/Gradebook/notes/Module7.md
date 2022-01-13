@@ -30,3 +30,8 @@ Jumping statements allow me to jump over code to reach some other line of code t
 ### Pattern Matching with switch
 * In C# 7, `switch` statments were given the ability to do pattern matching. Pattern matching is used to match some variable against a certain type.
 * New `switch` features include being able to declare a variable in my case statement as well as using the `when` keyword. If `when` is true, then the code will execute that is associated with this case statement. 
+
+### Challenge: Taking User Input from the Console
+> var input = Console.ReadLine();
+
+> var grade = double.Parse(input);
