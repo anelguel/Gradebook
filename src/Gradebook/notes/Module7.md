@@ -39,4 +39,11 @@ Jumping statements allow me to jump over code to reach some other line of code t
 ### Throwing Exceptions
 In larger systems, you build your own exceptions, but there are some that are built in such as:
 
-`throw new ArgumentException()`
+`throw new ArgumentException()` - there is something wrong with one of the arguments to this method.
+
+If someone wants to handle the error condition, you need to `catch` the exception, otherwise the exception will crash the program. If the runtime cannot find something that can catch that exception in this method, it's going to go to the code that called the method.
+
+### Catching Exceptions
+`try{}catch(){}` statement - `try` the following code, if an exception happens, skip the following code until I reach `catch()`. You can stack various `catch` statments to handle different exceptions.
+
+A `finally` block is useful if there is a piece of code that you always want to execute at the end of your try catch block.

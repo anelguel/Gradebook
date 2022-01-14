@@ -40,7 +40,7 @@ namespace Gradebook
             }
             else
             {
-                throw new ArgumentException($"invalid {nameof(grade)}");
+                throw new ArgumentException($"The {nameof(grade)} input is not valid.");
             }
         }
 
