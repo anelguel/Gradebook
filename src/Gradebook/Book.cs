@@ -99,5 +99,7 @@ namespace Gradebook
             get; 
             private set;
         }
+
+        readonly string category = "Science";
     }
 }
