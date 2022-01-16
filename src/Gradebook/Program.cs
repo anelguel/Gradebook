@@ -46,7 +46,6 @@ namespace Gradebook
             {
                 var stats = book.GetStatistics();
 
-                book.Name = "";
                 System.Console.WriteLine($"For the book named {book.Name}");
                 System.Console.WriteLine($"The lowest grade is {stats.Low}");
                 System.Console.WriteLine($"The highest grade is {stats.High}");
