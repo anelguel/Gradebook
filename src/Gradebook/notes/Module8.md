@@ -20,7 +20,7 @@ What is the different between a field and a propety?
 ### Defining const Members
 *  `const` has even stronger semantics than `readonly`.
 * You cannot change a `const` value, even from a constructor
-* Like `readonly`, but rules are even more strict. For example, if you make a `const int x=3;` later you can't even do `x++` (add to it) because its value never changes.
+* Like `readonly`, but rules are even more strict. For example, if you make a `const int x = 3;` later you can't even do `x++` (add to it) because its value never changes.
 * `const` fields are treated like static members (cannot access a static memnber via an object reference, can only reference vai type name) of the class. This makes sense because the value never changes.
 
 ### Events
@@ -31,6 +31,11 @@ What is the different between a field and a propety?
 ### Defining a Delegate
 * Delegates describe and build a new type for .NET, but delegates are very different than a `class` or `struct`
 * Classes describe members like fields, properties, methods, etc. Delegates describe what a method will look like.
-* A delegate allows me to **find a variable that can point and invoke different methods**. But it's not just any method, it needs to have a specific shape and structure.
+* A delegate allows me to **define a variable that can point and invoke different methods**. But it's not just any method, it needs to have a specific shape and structure.
 * You define what a method looks like, i.e. the return type, parameter types and numbers. That's what we define with a delegate.
 * A delegate can be intiantionated like a class using the `new` keyword.
+
+### Using Multi-cast Delegates
+* Delegates can invole multiple methods.
+* Delegates give me the ability to declare a variable that I can use like a method.
+    * In a nutshell, delegates allow you to have a variable type of type method? Revisit delegates and events again.
