@@ -49,3 +49,7 @@ What is the different between a field and a propety?
 * The second parameter is some form of event arguments.
 * An event, like a field or a method or property, can be a member of a class.
 
+### Subscribing to an Event
+* You may rarely use delegates. Xamarin Forms or WPF frameworks do use delegates a lot because every UI interaction becomes an event. 
+* You "subscribe" or listen to an event.
+
