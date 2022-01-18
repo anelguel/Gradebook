@@ -35,6 +35,9 @@ What is the different between a field and a propety?
 * You define what a method looks like, i.e. the return type, parameter types and numbers. That's what we define with a delegate.
 * A delegate can be intiantionated like a class using the `new` keyword.
 
+> `[access modifier] delegate [return type] [delegate name]([parameters])`
+
+
 ### Using Multi-cast Delegates
 * Delegates can invole multiple methods.
 * Delegates give me the ability to declare a variable that I can use like a method.
