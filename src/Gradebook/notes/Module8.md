@@ -13,6 +13,12 @@ What is the different between a field and a propety?
 
 ### Defining readonly Members
 * Having a property with `private set;` is essentially reado nly. What else can we do to make a variable or field read only or constant (it cannot change)?
-* `readonly` - the readonly keyword gives a fields that can only initialize or change or write to in the *constructor*.
+* `readonly` - the readonly keyword gives a field that can only initialize or change or write to in the *constructor*.
 
 > Constructors, like methods, can also be overloaded.
+
+### Defining const Members
+*  `const` has even stronger semantics than `readonly`.
+* You cannot change a `const` value, even from a constructor
+* Like `readonly`, but rules are even more strict. For example, if you make a `const int x=3;` later you can't even do `x++` (add to it) because its value never changes.
+* `const` fields are treated like static members (cannot access a static memnber via an object reference, can only reference vai type name) of the class. This makes sense because the value never changes.
