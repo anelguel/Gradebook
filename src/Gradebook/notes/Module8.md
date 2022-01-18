@@ -27,3 +27,10 @@ What is the different between a field and a propety?
 * Another member that you can add to a class.
 * Events are not commonly used, and are hard to understand, but we'll still cover it.  
 * Before we can just into events, we have to understand a new type known as a delegate.
+
+### Defining a Delegate
+* Delegates describe and build a new type for .NET, but delegates are very different than a `class` or `struct`
+* Classes describe members like fields, properties, methods, etc. Delegates describe what a method will look like.
+* A delegate allows me to **find a variable that can point and invoke different methods**. But it's not just any method, it needs to have a specific shape and structure.
+* You define what a method looks like, i.e. the return type, parameter types and numbers. That's what we define with a delegate.
+* A delegate can be intiantionated like a class using the `new` keyword.
