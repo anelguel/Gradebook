@@ -39,3 +39,13 @@ What is the different between a field and a propety?
 * Delegates can invole multiple methods.
 * Delegates give me the ability to declare a variable that I can use like a method.
     * In a nutshell, delegates allow you to have a variable type of type method? Revisit delegates and events again.
+
+### Defining an Event
+* When something significant happens (like someone clicks a button, or adds a grade) and you want to know about it - this is an event.
+* This is where delegates become useful because if I can define a delegate and have a field that is a delegate, at runtime, someone can point that delegate to different methods and different pieces of code that are available somewhere else in the application. Our example: add it to `AddGrade()` method, then I can announce to the outside world that, yes, we just added a grade to the gradebook.
+* All events in .NET typically have two parameters. First: of type object.
+* `object` is the base type for everything in .NET, anything we work with (`Book`, int, float, etc), they all have some relationship to this object type. When using object, I can use anything to pass into that parameter (from an object to int, float, etc).
+* The first parameter is the `sending`. Who is sending this event to the rest of the world?
+* The second parameter is some form of event arguments.
+* An event, like a field or a method or property, can be a member of a class.
+
