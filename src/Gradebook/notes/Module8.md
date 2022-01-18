@@ -22,3 +22,8 @@ What is the different between a field and a propety?
 * You cannot change a `const` value, even from a constructor
 * Like `readonly`, but rules are even more strict. For example, if you make a `const int x=3;` later you can't even do `x++` (add to it) because its value never changes.
 * `const` fields are treated like static members (cannot access a static memnber via an object reference, can only reference vai type name) of the class. This makes sense because the value never changes.
+
+### Events
+* Another member that you can add to a class.
+* Events are not commonly used, and are hard to understand, but we'll still cover it.  
+* Before we can just into events, we have to understand a new type known as a delegate.
