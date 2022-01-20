@@ -12,3 +12,9 @@
 ### Chaining Constructors
 * When you have a base class that inherits from a derived class, you create two different objects.
 * `base()` refers to the object that I'm interacting with. It's accessing a constructor on my base class.
+* `Dervied Class? : Base Class`
+
+### Deriving from System.Object
+* In .NET, every class has a base class.
+* There is no limit to how far the inheritance heirarchy can go. In practice, inheritance can make code difficult to follow, so it's best not to have deep inheritance heirarchies.
+* In .NET everything will derive from `System.Object` (or also `object`), this has many types that pop up in intellisense including `ToString()`, `Equals()`, etc. Anything in .NET (int, double, `Book`, or `Book : NameObject` derives from this).
