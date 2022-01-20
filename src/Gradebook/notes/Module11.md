@@ -9,3 +9,9 @@
 
 ### LINQ
 * Checkout: LINQ (Language Integrated Query) Fundamentals by Scott Allen. Query syntax.
+
+### Effective C#
+* Checkout: C# Programming Paradigms by Scott Allen on Pluralsight. 
+    * Object Oriented Programming with C#
+    * Functional Programming with C#
+    * Crafting C# Code
