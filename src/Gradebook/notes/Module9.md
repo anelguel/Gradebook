@@ -38,3 +38,12 @@
 * `virtual` keyword in C# is a way of saying, here's a method that is in this class, but a derived class might choose to override the implementation details for this method.
 * An `abstract` method is implicitly `virtual` because someone needs to provide an implementation and override the abstract method
 * Events, properties and methods can be virtual
+
+### Writing Grades to a File
+```
+var writer = File.AppendText($"{Name}.txt");
+writer.WriteLine(grade);
+```
+
+### Using IDisposable
+* `using` is a keyword that can also be used in code, not just when bringing in/calling a namespace (like `using System;`). When you're working with an object that works with things like files or sockets and has some underlying resource, we typically wrap those with a `using` statement so that we can create and dispose those objects as soon as we are finished working with them,

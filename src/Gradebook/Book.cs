@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Gradebook
 {
@@ -15,7 +16,7 @@ namespace Gradebook
 
         public string Name
         {
-            get; 
+            get;
             set;
         }
     }
@@ -28,17 +29,41 @@ namespace Gradebook
         event GradeAddedDelegate GradeAdded;
     }
 
-    public abstract class Book : NamedObject, IBook 
+    public abstract class Book : NamedObject, IBook
     {
         public Book(string name) : base(name)
         {
         }
 
-        public virtual event GradeAddedDelegate GradeAdded;
+        public abstract event GradeAddedDelegate GradeAdded;
 
         public abstract void AddGrade(double grade);
 
-        public virtual Statistics GetStatistics()
+        public abstract Statistics GetStatistics();
+    }
+
+    public class DiskBook : Book
+    {
+        public DiskBook(string name) : base(name)
+        {
+        }
+
+        public override event GradeAddedDelegate GradeAdded;
+
+        public override void AddGrade(double grade)
+        {
+            using (var writer = File.AppendText($"{Name}.txt"))
+            {
+                writer.WriteLine(grade);
+
+                if (GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs());
+                }
+            }
+        }
+
+        public override Statistics GetStatistics()
         {
             throw new NotImplementedException();
         }
