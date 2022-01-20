@@ -12,7 +12,7 @@
 ### Chaining Constructors
 * When you have a base class that inherits from a derived class, you create two different objects.
 * `base()` refers to the object that I'm interacting with. It's accessing a constructor on my base class.
-* `Dervied Class? : Base Class`
+* `Dervied Class : Base Class`
 
 ### Deriving from System.Object
 * In .NET, every class has a base class.
@@ -24,3 +24,9 @@
     * What that does is take all the code that I've highlighted, analyzed the return type, analyze what parameters are needed, and it will place all that code inside of a new method. It encapsulates all the operations inside of this `NewMethod()`
 * Polymorphism is in a way a form of encapsulation because it is another technique that hides the underlying details and the implementations of what's really happening behind this object I'm working with.
 * Polymorph - an object or material which takes various forms, and polymorphic behavior would be behavior that can change. How that happens and the details are encapsulated from me, but polymorhpism is useful because I can write methods and I can write code that is very generic and doesn't have a dependency on a specific implementation (I can work with books that store info on the harddrive or the network), I can work with all of that from inside of this method, just give me that `Book` object.
+
+### Defining an Abstract Class
+* An abstract class is a class that looks just like a regular class definition except it uses the `abstract` keyword. Abstract classes can have abstract methods. 
+* When you write an `abstract` method it tells the C# compiler that I want anything that is a `BookBase` (abstract object), to have an `AddGrade` (abstract method), but at this level, I cannot provide an implementation. Let the derived types that inherit from this class figure out the implementation. 
+* In C#, you can only have a single inheritance
+* Anytime you inherit an abstract member (like a class), you're going to have to provide an implementation for that abstract member. You do this by calling it using the `override` keyword.
