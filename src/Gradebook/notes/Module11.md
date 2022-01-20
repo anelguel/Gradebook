@@ -6,3 +6,6 @@
 
 ### Async C#
 * Checkout: Asynchronous C# 5.0 by Jon Skeet (learn about async and await, as well as how to do parallel processing and testing asynchronous code).
+
+### LINQ
+* Checkout: LINQ (Language Integrated Query) Fundamentals by Scott Allen. Query syntax.
