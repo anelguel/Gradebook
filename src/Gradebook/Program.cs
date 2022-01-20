@@ -9,10 +9,7 @@ namespace Gradebook
         {
             var book = new Book("Anel's Grade Book");
             book.GradeAdded += OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
-            book.GradeAdded -= OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
-
+           
             while (true)
             {
                 Console.WriteLine("Please enter a grade or 'q' to quit:");

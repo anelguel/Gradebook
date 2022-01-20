@@ -55,4 +55,5 @@ What is the different between a field and a propety?
 ### Subscribing to an Event
 * You may rarely use delegates. Xamarin Forms or WPF frameworks do use delegates a lot because every UI interaction becomes an event. 
 * You "subscribe" or listen to an event.
+* When you see `Book : NameObject` it is read as `Book` *is* a `NameObject`
 

@@ -7,3 +7,4 @@
 
 ### Deriving from a Base Class
 * Inheritance allows you to define a base class. Any members that I write in a base class, I can inherit into a dervied class and allow those base class members to effectively be members of my derived class.
+* DRY principle= Don't Repeat Yourself
