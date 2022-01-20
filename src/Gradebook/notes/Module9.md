@@ -46,4 +46,4 @@ writer.WriteLine(grade);
 ```
 
 ### Using IDisposable
-* `using` is a keyword that can also be used in code, not just when bringing in/calling a namespace (like `using System;`). When you're working with an object that works with things like files or sockets and has some underlying resource, we typically wrap those with a `using` statement so that we can create and dispose those objects as soon as we are finished working with them,
+* `using` is a keyword that can also be used in code, not just when bringing in/calling a namespace (like `using System;`). When you're working with an object that works with things like files or sockets and has some underlying resource, we typically wrap those with a `using` statement so that we can create and dispose those objects as soon as we are finished working with them.
