@@ -30,3 +30,11 @@
 * When you write an `abstract` method it tells the C# compiler that I want anything that is a `BookBase` (abstract object), to have an `AddGrade` (abstract method), but at this level, I cannot provide an implementation. Let the derived types that inherit from this class figure out the implementation. 
 * In C#, you can only have a single inheritance
 * Anytime you inherit an abstract member (like a class), you're going to have to provide an implementation for that abstract member. You do this by calling it using the `override` keyword.
+
+### Defining an Interface
+* Another way to achieve polymorphism and encapsulation is to define an interface type. An interface definition looks very much like a class definition, but an interface is pure. That is, an interface contains no implementation details. An interface will only describe the members that should be available on a specific type.
+* Naming convention, start an interface with an I (i.e., "`IBook`")
+* Interfaces are far more common than abstract classes
+* `virtual` keyword in C# is a way of saying, here's a method that is in this class, but a derived class might choose to override the implementation details for this method.
+* An `abstract` method is implicitly `virtual` because someone needs to provide an implementation and override the abstract method
+* Events, properties and methods can be virtual
